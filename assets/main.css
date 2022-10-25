@@ -1,9 +1,11 @@
 .bcg-blk {
     background-color: black;
 }
+
 .bgt-white {
     color: whitesmoke;
 }
+
 nav {
     justify-content: space-between;
     align-items: center;
@@ -67,3 +69,10 @@ header {
     background-color: grey;
 }
 
+.fxd-c {
+    flex-direction: column;
+}
+
+.ai-c {
+    align-items: center;
+}

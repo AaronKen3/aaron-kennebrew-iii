@@ -12,6 +12,8 @@
 
 /* font properties */
 
+.fc-ws {color: whitesmoke;}
+
 .ff-ms {font-family: monospace;}
 
 .fs-i {font-style: italic;}
@@ -24,7 +26,7 @@
 
 .fs-1.6 {font-size: 1.6em;}
 
-.fs-150 {font-size: 150%;}
+.fs-204 {font-size: 204%;}
 
 /* flex properties */
 
@@ -50,6 +52,9 @@
 .jc-sb {justify-content: space-between;}
 
 
+@keyframes spin {
+    from {transform: rotate(0deg);}to {transform: rotate(360deg);}}
+
 
 .p {padding: 33px;}
 
@@ -60,5 +65,16 @@
 nav ul li {list-style: none; margin: 10px;}
 
 .red {color: red;}
+
+.rotate {
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+  }
+
+.scale {transform: scale(1.5, 1);}
+
+.skew {transform: rotate(15deg);}
 
 .ta-c {text-align: center;}

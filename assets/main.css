@@ -12,7 +12,13 @@
 
 /* font properties */
 
+.ff-ms {font-family: monospace;}
+
 .fs-i {font-style: italic;}
+
+.fs-17 {font-size: 17px;}
+
+.fs-22 {font-size: 22px;}
 
 .fs-50 {font-size: 50px;}
 

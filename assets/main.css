@@ -1,78 +1,41 @@
-.bcg-blk {
-    background-color: black;
-}
+.bcg-blk {background-color: black;}
 
-.bgt-white {
-    color: whitesmoke;
-}
+.bgt-white {color: whitesmoke;}
 
-nav {
-    justify-content: space-between;
-    align-items: center;
-}
+nav ul li {list-style: none; margin: 10px;}
 
-nav ul {
-    display: flex;
+.red {color: red;}
 
-}
+.d-f {display: flex;}
 
-nav ul li {
-    list-style: none;
-    margin: 10px;
-    font-style: italic;
-}
+.jc-c {justify-content: center;}
 
-header h2 {
-    text-align: center;
-    font-size: 50px;
-}
+.jc-sa {justify-content: space-around;}
 
-section h3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.6em;
-}
+.jc-sb {justify-content: space-between;}
 
+.icon {width: 65%; height: 72%; fill: rgb(30, 213, 30);}
 
-header {
-    background-image: url("https://wallpaperaccess.com/full/5651978.png");
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+.icon:hover {fill: whitesmoke}
 
-.red {
-    color: red;
-}
+.icon:active {fill: whitesmoke;}
 
-.d-f {
-    display: flex;
-}
+.fs-i {font-style: italic;}
 
-.jc-sa {
-    justify-content: space-around;
-}
+.fs-50 {font-size: 50px;}
 
-.icon {
-    width: 65%;
-    height: 72%;
-    fill: rgb(30, 213, 30);
-}
+.fs-1.6 {font-size: 1.6em;}
 
-.icon:hover {
-    fill: whitesmoke
-}
+.fxd-c {flex-direction: column;}
 
-.bgc-grey100 {
-    background-color: grey;
-}
+.fw-w {flex-wrap: wrap;}
 
-.fxd-c {
-    flex-direction: column;
-}
+.h100 {height: 100px;}
 
-.ai-c {
-    align-items: center;
-}
+.ls-n {list-style: none}
+    
+.m-10 {margin: 10px;}
+
+.ta-c {text-align: center;}
+
+.ai-c {align-items: center;}

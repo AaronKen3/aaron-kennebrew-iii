@@ -1,10 +1,16 @@
 .ai-c {align-items: center;}
 
+
+/* background/ properties */
 .bcg-blk {background-color: black;}
 
 .bgt-white {color: whitesmoke;}
 
+
+
 .d-f {display: flex;}
+
+/* font properties */
 
 .fs-i {font-style: italic;}
 
@@ -12,23 +18,34 @@
 
 .fs-1.6 {font-size: 1.6em;}
 
+.fs-150 {font-size: 150%;}
+
+/* flex properties */
+
 .fxd-c {flex-direction: column;}
 
 .fw-w {flex-wrap: wrap;}
 
 .h100 {height: 100px;}
 
+
+/* LinkedIn GitHub and resume properties */
 .icon {width: 65%; height: 72%; fill: rgb(30, 213, 30);}
 
 .icon:hover {fill: whitesmoke}
 
 .icon:active {fill: whitesmoke;}
 
+/* justify properties */
 .jc-c {justify-content: center;}
 
 .jc-sa {justify-content: space-around;}
 
 .jc-sb {justify-content: space-between;}
+
+
+
+.p {padding: 33px;}
 
 .ls-n {list-style: none}
     

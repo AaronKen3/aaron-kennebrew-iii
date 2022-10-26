@@ -1,24 +1,10 @@
+.ai-c {align-items: center;}
+
 .bcg-blk {background-color: black;}
 
 .bgt-white {color: whitesmoke;}
 
-nav ul li {list-style: none; margin: 10px;}
-
-.red {color: red;}
-
 .d-f {display: flex;}
-
-.jc-c {justify-content: center;}
-
-.jc-sa {justify-content: space-around;}
-
-.jc-sb {justify-content: space-between;}
-
-.icon {width: 65%; height: 72%; fill: rgb(30, 213, 30);}
-
-.icon:hover {fill: whitesmoke}
-
-.icon:active {fill: whitesmoke;}
 
 .fs-i {font-style: italic;}
 
@@ -32,10 +18,24 @@ nav ul li {list-style: none; margin: 10px;}
 
 .h100 {height: 100px;}
 
+.icon {width: 65%; height: 72%; fill: rgb(30, 213, 30);}
+
+.icon:hover {fill: whitesmoke}
+
+.icon:active {fill: whitesmoke;}
+
+.jc-c {justify-content: center;}
+
+.jc-sa {justify-content: space-around;}
+
+.jc-sb {justify-content: space-between;}
+
 .ls-n {list-style: none}
     
 .m-10 {margin: 10px;}
 
-.ta-c {text-align: center;}
+nav ul li {list-style: none; margin: 10px;}
 
-.ai-c {align-items: center;}
+.red {color: red;}
+
+.ta-c {text-align: center;}

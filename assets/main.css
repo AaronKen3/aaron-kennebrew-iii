@@ -61,7 +61,7 @@ html {
       transform: translateY(0px);
     }
     to {
-      transform: translateY(2000px);
+      transform: translateY(4000px);
     }
   }
  /* end of moving backgrouund */
@@ -130,7 +130,9 @@ html {
 
 .p-2 {padding: 2%;}
 
-.p {padding: 33px;}
+.pb-25 {padding-block: 25px;}
+
+.p-51 {padding: 51px;}
 
 .ls-n {list-style: none}
     
